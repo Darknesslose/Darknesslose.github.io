@@ -1,0 +1,114 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(238, 225, 225);
+}
+
+.logo{
+    display: flex;
+    width: 90px;
+    height: 80px;
+}
+
+.logotipo{
+    display: inline-flex;
+    width: 200px;
+    height: 100px;
+}
+
+header .navegador {
+    text-align: center;
+    font-size: 24px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    margin: 20px;
+}
+
+header .navegador ul li {
+    display: inline;
+    letter-spacing: 10px;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-top: 25px;
+}
+
+.texto-marca{
+  text-align: left;
+}
+
+.texto-logo-alter{
+    text-align: justify;
+}
+
+.logotipo1 .logotipo2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto-logo-alter{
+    background-color: rgb(255, 255, 255);
+}
+
+.contenedor-alter{
+    background-color: rgb(255, 255, 255);
+}
+
+.logotipo1{
+    margin-left: 9px;
+}
+
+.logotipo2{
+    margin-left: 9px;
+}
+
+
+.opcion{
+    display: flex;
+    display: inline-block;
+    align-self: flex-start;
+    justify-content: first baseline;
+}
+
+h4{
+ font-weight: 600;
+}
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #f1f1f1;
+    background-color: rgb(214, 63, 63);
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+
+ 
